@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="184px" height="184px" viewBox="0 0 184 184" style="enable-background:new 0 0 184 184;"
+	 xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{fill:#4764AE;}
+	.st1{clip-path:url(#SVGID_2_);fill:url(#bg_1_);}
+]]>
+</style>
+<g>
+	<path class="st0" d="M92.3,12.3c43.9,0,79.7,35.8,79.7,79.7c0,43.9-35.8,79.7-79.7,79.7S12.6,135.9,12.6,92
+		C12.6,48.1,48.4,12.3,92.3,12.3 M92.3,0.3C41.7,0.3,0.6,41.4,0.6,92c0,50.6,41.1,91.7,91.7,91.7c50.6,0,91.7-41.1,91.7-91.7
+		C184,41.4,142.9,0.3,92.3,0.3L92.3,0.3z"/>
+</g>
+<g>
+	<defs>
+		<circle id="SVGID_1_" cx="92.3" cy="92" r="69.4"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<linearGradient id="bg_1_" gradientUnits="userSpaceOnUse" x1="91.0894" y1="-16.2866" x2="91.0893" y2="178.3813">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#E6E6E6"/>
+		<a:midPointStop  offset="0" style="stop-color:#FFFFFF"/>
+		<a:midPointStop  offset="0.5" style="stop-color:#FFFFFF"/>
+		<a:midPointStop  offset="1" style="stop-color:#E6E6E6"/>
+	</linearGradient>
+	<path id="bg_3_" class="st1" d="M198.1,168.4c0,5.5-4.5,10-10,10h-194c-5.5,0-10-4.5-10-10V-6.3c0-5.5,4.5-10,10-10h194
+		c5.5,0,10,4.5,10,10V168.4z"/>
+</g>
+</svg>

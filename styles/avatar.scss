@@ -1,0 +1,254 @@
+/* canvases */
+canvas {
+  margin-left: -15px;
+}
+
+.portrait-avatar{
+  width: 184px;
+  height: 184px;
+  background-image: url("/front_dist/common/components/avatar/img/canvas_bg/avatar_portrait_bg.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+/*
+ * AVATAR BACKGROUNDS
+ */
+.module_1 {
+  padding: 0;
+  background-color: #c8e7df;
+  background-image: url("/front_dist/common/components/avatar/img/canvas_bg/1_beach_left_bottom.svg"),
+  url("/front_dist/common/components/avatar/img/canvas_bg/1_beach_right_bottom.svg"),
+  url("/front_dist/common/components/avatar/img/canvas_bg/1_beach_right_top.svg"),
+  url("/front_dist/common/components/avatar/img/canvas_bg/1_beach_main_bg.svg");
+
+  background-size: 0, auto, 0, 250% auto;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: left bottom, right bottom, right top, center bottom;
+
+  @media (min-width: $screen-sm-min) {
+    background-size: auto, auto, 0, 150% auto;
+  }
+  @media (min-width: $screen-md-min) {
+    background-size: auto, auto, auto, 100% auto;
+  }
+  @media (min-width: $screen-lg-min) {
+
+  }
+}
+
+.module_2 {
+  padding: 0;
+  background-color: #c8e7df;
+  background-image: url("/front_dist/common/components/avatar/img/canvas_bg/2_boat_right_top.svg"),
+  url("/front_dist/common/components/avatar/img/canvas_bg/2_boat_main_bg.svg");
+
+  background-size: auto, auto;
+  background-repeat: no-repeat, no-repeat;
+  background-position: right top, center bottom;
+
+  @media (min-width: $screen-sm-min) {
+
+  }
+  @media (min-width: $screen-md-min) {
+    background-size: auto, 100% auto;
+  }
+  @media (min-width: $screen-lg-min) {
+
+  }
+}
+
+.module_2_overlay {
+  //padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  //background-color: #c8e7df;
+  background-image: url("/front_dist/common/components/avatar/img/canvas_bg/2_boat_left_bottom_overlay.svg");
+
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+
+  @media (min-width: $screen-sm-min) {
+
+  }
+  @media (min-width: $screen-md-min) {
+  }
+  @media (min-width: $screen-lg-min) {
+
+  }
+}
+
+.module_3 {
+  padding: 0;
+  background-color: #c8e7df;
+  background-image: url("/front_dist/common/components/avatar/img/canvas_bg/3_island.svg");
+
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+
+  @media (min-width: $screen-sm-min) {
+    background-size: 100% auto;
+  }
+  @media (min-width: $screen-md-min) {
+
+  }
+  @media (min-width: $screen-lg-min) {
+
+  }
+}
+
+.module_4 {
+  padding: 0;
+  background-color: #0076ad;
+  background-image: url("/front_dist/common/components/avatar/img/canvas_bg/4_rainbow_left_bottom.svg"),
+  url("/front_dist/common/components/avatar/img/canvas_bg/4_rainbow_main_bg.svg"),
+  url("/front_dist/common/components/avatar/img/canvas_bg/4_rainbow_tile_bg.svg");
+
+  background-size: 177%, auto, 1px 800px;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  background-position: left bottom, center top, center top;
+
+  @media (min-width: $screen-sm-min) {
+    background-size: 115%, auto, 1px 800px;
+
+  }
+  @media (min-width: $screen-md-min) {
+    background-size: 80%, auto, 1px 800px;
+
+  }
+  @media (min-width: $screen-lg-min) {
+    background-size: auto 100%, auto, 1px 800px;
+
+    @media (max-height: 900px) {
+      background-position: left 25%, center top, center top;
+    }
+  }
+}
+
+.module_5 {
+  padding: 0;
+  background-color: #0b5c74;
+  background-image: url("/front_dist/common/components/avatar/img/canvas_bg/5_storm_top.svg"),
+  url("/front_dist/common/components/avatar/img/canvas_bg/5_storm_rain.svg"),
+  url("/front_dist/common/components/avatar/img/canvas_bg/5_storm_main_bg.svg");
+  background-size: auto, cover, auto;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center top, center, center bottom;
+
+  @media (min-width: $screen-sm-min) {
+
+  }
+  @media (min-width: $screen-md-min) {
+
+  }
+  @media (min-width: $screen-lg-min) {
+    background-size: 100%,cover,100%;
+    background-position: center top,center,center bottom -150px;
+  }
+}
+
+.module_6 {
+  padding: 0;
+  background-color: #c8e7df;
+  background-image: url("/front_dist/common/components/avatar/img/canvas_bg/6_dolphins.svg");
+
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+
+  @media (min-width: $screen-sm-min) {
+    background-size: 100% auto;
+  }
+  @media (min-width: $screen-md-min) {
+
+  }
+  @media (min-width: $screen-lg-min) {
+
+  }
+}
+
+.module_7 {
+  padding: 0;
+  background-color: #c8e7df;
+  background-image: url("/front_dist/common/components/avatar/img/canvas_bg/7_surf_bottom_center.svg"),
+  url("/front_dist/common/components/avatar/img/canvas_bg/7_surf_bottom_right.svg"),
+  url("/front_dist/common/components/avatar/img/canvas_bg/0_base_beach.svg");
+  background-size: auto, auto, auto;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center bottom, right bottom, center bottom;
+
+  @media (min-width: $screen-sm-min) {
+
+  }
+  @media (min-width: $screen-md-min) {
+
+  }
+  @media (min-width: $screen-lg-min) {
+    background-size: auto 100%, 100%, 100%;
+  }
+}
+
+.module_8 {
+  padding: 0;
+  background-color: #c8e7df;
+  background-image: url("/front_dist/common/components/avatar/img/canvas_bg/8_beach_bar_center_bar.svg"),
+  url("/front_dist/common/components/avatar/img/canvas_bg/0_base_beach.svg");
+  background-size: auto, 250% auto;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center bottom, center bottom;
+
+  @media (min-width: $screen-sm-min) {
+    background-size: auto, 150% auto;
+  }
+  @media (min-width: $screen-md-min) {
+    background-size: auto 100%, 100% auto;
+  }
+  @media (min-width: $screen-lg-min) {
+
+  }
+}
+
+.module_9 {
+  padding: 0;
+  background-color: #c8e7df;
+  background-image: url("/front_dist/common/components/avatar/img/canvas_bg/9_sunset_main_bg.svg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+
+  @media (min-width: $screen-sm-min) {
+
+  }
+  @media (min-width: $screen-md-min) {
+
+  }
+  @media (min-width: $screen-lg-min) {
+
+  }
+}
+
+.module_10 {
+  padding: 0;
+  background-color: #c8e7df;
+  background-image: url("/front_dist/common/components/avatar/img/canvas_bg/10_treasure_bottom_right.svg"),
+  url("/front_dist/common/components/avatar/img/canvas_bg/0_base_beach.svg");
+  background-size: auto, auto;
+  background-repeat: no-repeat, no-repeat;
+  background-position: right -250px bottom,center bottom;
+
+  @media (min-width: $screen-sm-min) {
+    background-position: right -100px bottom,center bottom;
+  }
+  @media (min-width: $screen-md-min) {
+    background-position: right bottom,center bottom;
+  }
+  @media (min-width: $screen-lg-min) {
+    background-size: auto, 100%;
+  }
+}
+
